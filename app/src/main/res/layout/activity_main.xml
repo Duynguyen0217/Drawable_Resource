@@ -12,7 +12,7 @@
     <!--    style="@style/TextView.Title"  -->
      <!--   android:text="Header content"/> -->
 
-    <Button
+   <!-- <Button
         android:background="@drawable/background_button_shape"
         android:text="Shape Drawable"
         android:layout_width="wrap_content"
@@ -27,7 +27,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    </Button>
+    </Button>-->
+
+    <RatingBar
+        android:progressDrawable="@drawable/background_rating_bar"
+      android:layout_width="wrap_content"
+      android:layout_height="128dp"
+        android:stepSize="0.1"
+        android:minHeight="128dp"
+        android:maxHeight="128dp"/>
 
 
 
